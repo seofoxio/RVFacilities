@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="rvGradLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7" />
+      <stop offset="45%" stop-color="#0D9488" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+    <linearGradient id="rvNavyLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#1E293B" />
+    </linearGradient>
+    <linearGradient id="rvAccentLight" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D97706" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+    <filter id="rvSoftShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#0F172A" flood-opacity="0.16" />
+    </filter>
+  </defs>
+
+  <!-- LOGO MARK (Left Badge) -->
+  <g transform="translate(10, 10)">
+    <!-- Base Hexagonal Container -->
+    <rect width="100" height="100" rx="22" fill="url(#rvNavyLight)" filter="url(#rvSoftShadow)" />
+    
+    <!-- Subtle Grid Lines -->
+    <path d="M15 80 L85 80 M15 65 L85 65 M15 50 L85 50" stroke="#334155" stroke-width="0.7" stroke-dasharray="2 3" opacity="0.35" />
+    
+    <!-- R Pillar & Curve (Crisp White) -->
+    <path d="M 27 25 L 38 25 L 38 75 L 27 75 Z" fill="#FFFFFF" />
+    <path d="M 38 25 L 56 25 C 65 25 71 31 71 40 C 71 49 65 54 55 54 L 38 54 Z M 38 35 L 53 35 C 57 35 60 37 60 40 C 60 43 57 45 53 45 L 38 45 Z" fill="#FFFFFF" />
+    
+    <!-- Dynamic V Forward Vision Vector (Teal-Emerald Gradient) -->
+    <path d="M 44 48 L 58 75 L 69 75 L 81 33 L 70 33 L 64 61 L 54 44 Z" fill="url(#rvGradLight)" />
+    
+    <!-- Vision Beacon (Amber Gold) -->
+    <circle cx="81" cy="27" r="4" fill="url(#rvAccentLight)" />
+    <path d="M 81 18 L 81 21 M 73 24 L 76 26 M 86 28 L 89 29" stroke="#F59E0B" stroke-width="1.3" stroke-linecap="round" opacity="0.85" />
+  </g>
+
+  <!-- TYPOGRAPHY / LOGOTYPE (Right) -->
+  <g transform="translate(130, 26)">
+    <!-- Primary Brand Wordmark -->
+    <text x="0" y="44" font-family="'Outfit', 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="46" letter-spacing="-0.03em" fill="#0F172A">
+      RV <tspan fill="url(#rvGradLight)" font-weight="800">FACILITIES</tspan>
+    </text>
+
+    <!-- Corporate Entity Subtitle -->
+    <text x="2" y="66" font-family="'Outfit', 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="12" letter-spacing="0.24em" fill="#475569">
+      RADICAL VISION FACILITIES PVT. LTD.
+    </text>
+
+    <!-- Trust Tagline & Provenance -->
+    <g transform="translate(2, 78)">
+      <rect x="0" y="0" width="82" height="18" rx="4" fill="#F1F5F9" />
+      <text x="6" y="13" font-family="'Outfit', 'DM Sans', sans-serif" font-weight="700" font-size="9.5" letter-spacing="0.08em" fill="#0D9488">
+        ESTD. 2006
+      </text>
+      
+      <circle cx="94" cy="9" r="2" fill="#94A3B8" />
+
+      <text x="104" y="13" font-family="'DM Sans', 'Outfit', sans-serif" font-weight="600" font-size="10.5" letter-spacing="0.06em" fill="#64748B">
+        Integrated Facility Management • Corporate Mobility • Telecom O&amp;M
+      </text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+PLACEHOLDER PHOTOS - replace before launch.
+These are Unsplash stock photos (Unsplash licence), not the named clients.
+Replace each with the real client's headshot, with their written consent, before the site goes live.
+suresh-nair.jpg        https://unsplash.com/photos/ (image id photo-1742981365880-698cfb84492d)
+dhananjay-kulkarni.jpg https://unsplash.com/photos/ (image id photo-1778692258270-bc0e80e975c0)
+mahesh-deshmukh.jpg    https://unsplash.com/photos/ (image id photo-1649433658557-54cf58577c68)

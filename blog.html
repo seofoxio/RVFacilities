@@ -1,0 +1,1447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Insights &amp; Industry Blog | RV Facilities Pune</title>
+  <meta name="description" content="Expert insights on corporate facility management, statutory PF/ESIC compliance, corporate cab mobility in Pune IT parks, and telecom tower O&M across Maharashtra.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+  <!-- Typography: Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600&display=swap" rel="stylesheet">
+
+  <style>
+    /* =====================================================================
+       DESIGN TOKENS & SYSTEM VARIABLES (Light Mode Palette)
+       ===================================================================== */
+    :root {
+      --teal-500: #0D9488;
+      --teal-600: #0F766E;
+      --teal-700: #115E59;
+      --teal-400: #14B8A6;
+      --teal-300: #2DD4BF;
+      --teal-50: #F0FDFA;
+      --teal-100: #CCFBF1;
+      --cyan-500: #0284C7;
+      --cyan-600: #0369A1;
+      --cyan-700: #075985;
+      --cyan-400: #38BDF8;
+      --cyan-50: #F0F9FF;
+      --cyan-100: #E0F2FE;
+      --emerald-600: #059669;
+      --emerald-500: #10B981;
+      --emerald-50: #ECFDF5;
+      --amber-500: #F59E0B;
+      --amber-600: #D97706;
+      --amber-50: #FFFBEB;
+      --slate-900: #0F172A;
+      --slate-800: #1E293B;
+      --slate-700: #334155;
+      --slate-600: #475569;
+      --slate-500: #64748B;
+      --slate-400: #94A3B8;
+      --slate-300: #CBD5E1;
+      --slate-200: #E2E8F0;
+      --slate-100: #F1F5F9;
+      --slate-50: #F8FAFC;
+      --white: #FFFFFF;
+      --radius-xs: 6px;
+      --radius-sm: 10px;
+      --radius-md: 16px;
+      --radius-lg: 24px;
+      --radius-xl: 32px;
+      --radius-full: 9999px;
+      --shadow-sm: 0 1px 3px rgba(15, 23, 42, 0.05);
+      --shadow-md: 0 4px 12px -2px rgba(15, 23, 42, 0.06), 0 2px 6px -2px rgba(15, 23, 42, 0.03);
+      --shadow-lg: 0 10px 25px -4px rgba(15, 23, 42, 0.08), 0 4px 10px -4px rgba(15, 23, 42, 0.03);
+      --shadow-xl: 0 20px 40px -10px rgba(15, 23, 42, 0.1);
+      --transition-fast: 0.18s cubic-bezier(0.16, 1, 0.3, 1);
+      --transition-normal: 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--slate-50);
+      color: var(--slate-700);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Poppins', sans-serif;
+      color: var(--slate-900);
+      line-height: 1.25;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+      transition: color var(--transition-fast);
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1240px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* Top Announcement Bar */
+    .top-bar {
+      background: var(--slate-100);
+      color: var(--slate-700);
+      font-size: 11.5px;
+      font-weight: 500;
+      border-bottom: 1px solid var(--slate-200);
+      padding: 7px 0;
+    }
+
+    .top-bar-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .top-bar-left, .top-bar-right {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
+    .top-badge {
+      background: rgba(13, 148, 136, 0.1);
+      color: var(--teal-700);
+      padding: 2px 7px;
+      border-radius: var(--radius-xs);
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+      border: 1px solid rgba(13, 148, 136, 0.25);
+    }
+
+    .top-link {
+      color: var(--slate-700);
+      transition: color var(--transition-fast);
+    }
+
+    .top-link:hover {
+      color: var(--teal-600);
+    }
+
+    .top-social-list {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-left: 8px;
+      padding-left: 12px;
+      border-left: 1px solid var(--slate-300);
+    }
+
+    .top-social-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      background: var(--white);
+      color: var(--slate-600);
+      border: 1px solid var(--slate-300);
+      transition: all var(--transition-fast);
+    }
+
+    .top-social-icon:hover {
+      background: var(--teal-500);
+      color: var(--white);
+      border-color: var(--teal-500);
+      transform: translateY(-1px);
+    }
+
+    .top-social-icon svg {
+      width: 11px;
+      height: 11px;
+    }
+
+    /* Header Nav */
+    .header {
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--slate-200);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .header-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 76px;
+    }
+
+    .brand-logo-img {
+      height: 48px;
+      width: auto;
+    }
+
+    .nav-menu {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      list-style: none;
+    }
+
+    .nav-item {
+      position: relative;
+    }
+
+    .nav-link {
+      font-size: 14.5px;
+      font-weight: 600;
+      color: var(--slate-700);
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      padding: 8px 0;
+      transition: color var(--transition-fast);
+    }
+
+    .nav-link:hover, .nav-link.active {
+      color: var(--teal-600);
+    }
+
+    .nav-link.active::after {
+      content: '';
+      position: absolute;
+      bottom: -4px;
+      left: 0;
+      width: 100%;
+      height: 2.5px;
+      background: linear-gradient(90deg, var(--teal-500), var(--cyan-500));
+      border-radius: var(--radius-full);
+    }
+
+    .nav-link svg {
+      width: 12px;
+      height: 12px;
+      transition: transform var(--transition-fast);
+    }
+
+    .nav-item:hover .nav-link svg {
+      transform: rotate(180deg);
+    }
+
+    .dropdown-menu {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 310px;
+      background: var(--white);
+      border: 1px solid var(--slate-200);
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-xl);
+      padding: 10px;
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(10px);
+      transition: all var(--transition-normal);
+      z-index: 100;
+    }
+
+    .nav-item:hover .dropdown-menu {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+
+    .drop-card {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+      padding: 10px 12px;
+      border-radius: var(--radius-sm);
+      transition: background var(--transition-fast);
+    }
+
+    .drop-card:hover {
+      background: var(--teal-50);
+    }
+
+    .drop-title {
+      font-size: 13.5px;
+      font-weight: 700;
+      color: var(--slate-900);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .drop-desc {
+      font-size: 11.5px;
+      color: var(--slate-500);
+      line-height: 1.4;
+      padding-left: 24px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      font-size: 14px;
+      font-weight: 700;
+      padding: 10px 20px;
+      border-radius: var(--radius-sm);
+      cursor: pointer;
+      border: 1px solid transparent;
+      transition: all var(--transition-normal);
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--teal-500), var(--cyan-600));
+      color: var(--white);
+      box-shadow: 0 4px 14px rgba(13, 148, 136, 0.25);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(13, 148, 136, 0.35);
+      color: var(--white);
+    }
+
+    .mobile-toggle {
+      display: none;
+      background: none;
+      border: none;
+      font-size: 22px;
+      color: var(--slate-800);
+      cursor: pointer;
+    }
+
+    /* =====================================================================
+       BLOG HERO & FILTER BAR
+       ===================================================================== */
+    .blog-hero {
+      background: linear-gradient(180deg, #FFFFFF 0%, #F0F9FF 60%, #FAFBFD 100%);
+      padding: 65px 0 45px;
+      border-bottom: 1px solid var(--slate-200);
+      text-align: center;
+    }
+
+    .blog-hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--white);
+      border: 1px solid var(--teal-200);
+      color: var(--teal-700);
+      padding: 6px 14px;
+      border-radius: var(--radius-full);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .blog-hero-title {
+      font-size: 42px;
+      font-weight: 800;
+      color: var(--slate-900);
+      margin-bottom: 16px;
+    }
+
+    .blog-hero-title span {
+      background: linear-gradient(135deg, var(--teal-600), var(--cyan-600));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .blog-hero-desc {
+      font-size: 16px;
+      color: var(--slate-600);
+      max-width: 720px;
+      margin: 0 auto 30px;
+      line-height: 1.65;
+    }
+
+    /* Category Filter Tabs */
+    .filter-bar {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 10px;
+    }
+
+    .filter-btn {
+      background: var(--white);
+      border: 1px solid var(--slate-200);
+      color: var(--slate-600);
+      padding: 8px 18px;
+      border-radius: var(--radius-full);
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all var(--transition-fast);
+    }
+
+    .filter-btn:hover {
+      border-color: var(--teal-400);
+      color: var(--teal-600);
+      background: var(--teal-50);
+    }
+
+    .filter-btn.active {
+      background: var(--teal-500);
+      color: var(--white);
+      border-color: var(--teal-500);
+      box-shadow: 0 2px 8px rgba(13, 148, 136, 0.3);
+    }
+
+    /* =====================================================================
+       BLOG POSTS GRID
+       ===================================================================== */
+    .blog-section {
+      padding: 70px 0 90px;
+    }
+
+    .blog-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 35px;
+    }
+
+    .blog-card {
+      background: var(--white);
+      border: 1px solid var(--slate-200);
+      border-radius: var(--radius-xl);
+      overflow: hidden;
+      box-shadow: var(--shadow-md);
+      transition: all var(--transition-normal);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .blog-card:hover {
+      border-color: var(--teal-400);
+      transform: translateY(-6px);
+      box-shadow: var(--shadow-xl);
+    }
+
+    .blog-img-wrap {
+      width: 100%;
+      height: 240px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .blog-img-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+    }
+
+    .blog-card:hover .blog-img-wrap img {
+      transform: scale(1.05);
+    }
+
+    .blog-tag-badge {
+      position: absolute;
+      top: 16px;
+      left: 16px;
+      background: rgba(15, 23, 42, 0.85);
+      color: var(--white);
+      backdrop-filter: blur(8px);
+      padding: 4px 12px;
+      border-radius: var(--radius-full);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .blog-read-time {
+      position: absolute;
+      bottom: 12px;
+      right: 12px;
+      background: rgba(255, 255, 255, 0.9);
+      color: var(--slate-800);
+      padding: 4px 10px;
+      border-radius: var(--radius-sm);
+      font-size: 11px;
+      font-weight: 600;
+      backdrop-filter: blur(6px);
+    }
+
+    .blog-content {
+      padding: 28px;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+
+    .blog-meta-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 12px;
+      color: var(--slate-500);
+      margin-bottom: 12px;
+    }
+
+    .blog-date {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .blog-title {
+      font-size: 21px;
+      font-weight: 800;
+      color: var(--slate-900);
+      line-height: 1.35;
+      margin-bottom: 12px;
+      transition: color var(--transition-fast);
+    }
+
+    .blog-card:hover .blog-title {
+      color: var(--teal-600);
+    }
+
+    .blog-excerpt {
+      font-size: 14px;
+      color: var(--slate-600);
+      line-height: 1.65;
+      margin-bottom: 22px;
+      flex: 1;
+    }
+
+    .blog-footer {
+      border-top: 1px solid var(--slate-100);
+      padding-top: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .blog-author {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .author-avatar {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: var(--teal-100);
+      color: var(--teal-800);
+      font-weight: 800;
+      font-size: 13px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 2px solid var(--white);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .author-name {
+      font-size: 12.5px;
+      font-weight: 700;
+      color: var(--slate-800);
+      line-height: 1.2;
+    }
+
+    .author-role {
+      font-size: 11px;
+      color: var(--slate-500);
+    }
+
+    .read-more-btn {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--teal-600);
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      cursor: pointer;
+      background: none;
+      border: none;
+      padding: 0;
+      transition: gap var(--transition-fast);
+    }
+
+    .read-more-btn:hover {
+      gap: 8px;
+      color: var(--teal-700);
+    }
+
+    /* =====================================================================
+       FULL ARTICLE MODAL
+       ===================================================================== */
+    .article-modal {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(15, 23, 42, 0.65);
+      backdrop-filter: blur(8px);
+      z-index: 2000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      opacity: 0;
+      visibility: hidden;
+      transition: all var(--transition-normal);
+    }
+
+    .article-modal.active {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .modal-dialog {
+      background: var(--white);
+      border-radius: var(--radius-xl);
+      max-width: 800px;
+      width: 100%;
+      max-height: 90vh;
+      overflow-y: auto;
+      padding: 40px;
+      box-shadow: var(--shadow-xl);
+      position: relative;
+    }
+
+    .modal-close-btn {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background: var(--slate-100);
+      border: none;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      font-size: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      color: var(--slate-600);
+      transition: all var(--transition-fast);
+    }
+
+    .modal-close-btn:hover {
+      background: var(--slate-200);
+      color: var(--slate-900);
+    }
+
+    .modal-header-tag {
+      font-size: 11.5px;
+      font-weight: 800;
+      color: var(--teal-600);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 8px;
+    }
+
+    .modal-title {
+      font-size: 26px;
+      font-weight: 800;
+      color: var(--slate-900);
+      line-height: 1.3;
+      margin-bottom: 16px;
+    }
+
+    .modal-meta {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      font-size: 12.5px;
+      color: var(--slate-500);
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--slate-200);
+      margin-bottom: 24px;
+    }
+
+    .modal-body {
+      font-size: 15px;
+      color: var(--slate-700);
+      line-height: 1.75;
+    }
+
+    .modal-body p {
+      margin-bottom: 16px;
+    }
+
+    .modal-body h4 {
+      font-size: 18px;
+      font-weight: 800;
+      color: var(--slate-900);
+      margin: 22px 0 10px;
+    }
+
+    .modal-body ul {
+      margin-left: 20px;
+      margin-bottom: 20px;
+    }
+
+    .modal-body li {
+      margin-bottom: 8px;
+    }
+
+    .modal-cta-box {
+      background: var(--teal-50);
+      border: 1px solid var(--teal-200);
+      border-radius: var(--radius-md);
+      padding: 20px;
+      margin-top: 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    /* Social Share Bar */
+    .article-share-bar {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 24px;
+      padding-top: 20px;
+      border-top: 1px solid var(--slate-200);
+      flex-wrap: wrap;
+    }
+
+    .share-bar-label {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--slate-600);
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .share-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 7px 14px;
+      border-radius: var(--radius-full);
+      font-size: 12px;
+      font-weight: 700;
+      border: 1px solid var(--slate-200);
+      background: var(--white);
+      color: var(--slate-700);
+      cursor: pointer;
+      transition: all var(--transition-fast);
+      text-decoration: none;
+    }
+
+    .share-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .share-btn-linkedin:hover {
+      background: #0A66C2;
+      color: var(--white);
+      border-color: #0A66C2;
+    }
+
+    .share-btn-whatsapp:hover {
+      background: #25D366;
+      color: var(--white);
+      border-color: #25D366;
+    }
+
+    .share-btn-copy:hover {
+      background: var(--teal-500);
+      color: var(--white);
+      border-color: var(--teal-500);
+    }
+
+    .share-btn svg {
+      width: 14px;
+      height: 14px;
+    }
+
+    /* Footer */
+    .footer {
+      background: var(--slate-100);
+      color: var(--slate-600);
+      padding: 80px 0 35px;
+      border-top: 1px solid var(--slate-200);
+      font-size: 13.5px;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr 1fr 1.2fr;
+      gap: 45px;
+      margin-bottom: 60px;
+    }
+
+    .footer-col-title {
+      font-size: 15px;
+      font-weight: 800;
+      color: var(--slate-900);
+      margin-bottom: 22px;
+    }
+
+    .footer-links {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 11px;
+    }
+
+    .footer-links a {
+      color: var(--slate-600);
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .footer-links a:hover {
+      color: var(--teal-600);
+      transform: translateX(4px);
+    }
+
+    .footer-bottom {
+      border-top: 1px solid var(--slate-200);
+      padding-top: 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+      font-size: 12px;
+      color: var(--slate-500);
+    }
+
+    @media (max-width: 992px) {
+      .blog-grid {
+        grid-template-columns: 1fr;
+      }
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .nav-menu {
+        display: none;
+        position: absolute;
+        top: 76px;
+        left: 0;
+        right: 0;
+        background: var(--white);
+        flex-direction: column;
+        padding: 24px;
+        border-bottom: 1px solid var(--slate-200);
+        box-shadow: var(--shadow-xl);
+        gap: 16px;
+        align-items: flex-start;
+      }
+      .nav-menu.open {
+        display: flex;
+      }
+      .mobile-toggle {
+        display: block;
+      }
+      .blog-hero-title {
+        font-size: 32px;
+      }
+      .modal-dialog {
+        padding: 24px;
+      }
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    /* =====================================================================
+       SOCIAL ICONS — OFFICIAL BRAND COLOURS (header & footer)
+       ===================================================================== */
+    .top-social-icon[href*="linkedin.com"]  { --brand: #0A66C2; }
+    .top-social-icon[href*="wa.me"]         { --brand: #25D366; }
+    .top-social-icon[href*="facebook.com"]  { --brand: #0866FF; }
+    .top-social-icon[href*="x.com"]         { --brand: #000000; }
+    .top-social-icon[href*="instagram.com"] {
+      --brand: #E4405F;
+      background-image: radial-gradient(circle at 30% 107%, #FDF497 0%, #FDF497 5%, #FD5949 45%, #D6249F 60%, #285AEB 90%) !important;
+    }
+    .top-social-icon[href*="linkedin.com"],
+    .top-social-icon[href*="wa.me"],
+    .top-social-icon[href*="facebook.com"],
+    .top-social-icon[href*="x.com"],
+    .top-social-icon[href*="instagram.com"] {
+      background-color: var(--brand) !important;
+      border-color: transparent !important;
+      color: #FFFFFF !important;
+    }
+    .top-social-icon[href*="linkedin.com"]:hover,
+    .top-social-icon[href*="wa.me"]:hover,
+    .top-social-icon[href*="facebook.com"]:hover,
+    .top-social-icon[href*="x.com"]:hover,
+    .top-social-icon[href*="instagram.com"]:hover {
+      filter: brightness(1.08);
+      box-shadow: 0 3px 8px rgba(15, 23, 42, 0.25);
+    }
+    /* Poppins everywhere, including form controls */
+    button, input, select, textarea, optgroup { font-family: inherit; }
+  
+    /* Brand logo (JPG on white): blend into light header and footer */
+    img[src="logo-header.jpg"] { mix-blend-mode: multiply; max-width: 100%; }
+  </style>
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-bar-left">
+        <span>📍 S-74 Destination Centre, Center-1, Nanded City, Sinhagad Rd, Pune 411068</span>
+        <span class="top-badge">GSTIN: 27AANCR5092D1Z4</span>
+        <span class="top-badge">✓ 100% PF/ESIC Statutory Compliant</span>
+      </div>
+      <div class="top-bar-right">
+        <a href="tel:+918446036060" class="top-link">📞 +91 84460 36060</a>
+        <a href="tel:+919923000397" class="top-link">+91 992 300 0397</a>
+        <a href="mailto:info@rvfacilities.com" class="top-link">✉️ info@rvfacilities.com</a>
+        <a href="https://erpnext.rvfacilities.com" target="_blank" rel="noopener" class="top-link" style="color:var(--teal-600); font-weight:700;">
+          Client ERP Portal &rarr;
+        </a>
+        <div class="top-social-list" aria-label="Social media channels">
+          <a href="https://linkedin.com/company/rvfacilities" target="_blank" rel="noopener" class="top-social-icon" title="LinkedIn">
+            <svg fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+          </a>
+          <a href="https://wa.me/918446036060?text=Hi%20RV%20Facilities%2C%20I%20am%20interested%20in%20your%20services" target="_blank" rel="noopener" class="top-social-icon" title="WhatsApp">
+            <svg fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+          </a>
+          <a href="https://facebook.com/rvfacilities" target="_blank" rel="noopener" class="top-social-icon" title="Facebook">
+            <svg fill="currentColor" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg>
+          </a>
+          <a href="https://instagram.com/rvfacilities" target="_blank" rel="noopener" class="top-social-icon" title="Instagram">
+            <svg fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </a>
+          <a href="https://x.com/rvfacilities" target="_blank" rel="noopener" class="top-social-icon" title="X">
+            <svg fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header Nav -->
+  <header class="header">
+    <div class="container header-inner">
+      <a href="home.html" class="brand-logo-wrap">
+        <img src="logo-header.jpg" alt="Radical Vision Facilities &amp; Services" class="brand-logo-img">
+      </a>
+
+      <nav>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="home.html#services" class="nav-link">
+              <span>Services</span>
+              <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg>
+            </a>
+            <div class="dropdown-menu">
+              <a href="home.html#svc-cabs" class="drop-card">
+                <span class="drop-title"><span style="color:var(--teal-500);">🚗</span> Corporate Cab Fleet</span>
+                <span class="drop-desc">24/7 employee transit, GPS tracked, female safety compliance.</span>
+              </a>
+              <a href="home.html#svc-towers" class="drop-card">
+                <span class="drop-title"><span style="color:var(--teal-500);">🗼</span> Mobile Towers &amp; O&amp;M</span>
+                <span class="drop-desc">Tower erection, diesel filling, DG maintenance, optical fiber.</span>
+              </a>
+              <a href="home.html#svc-manpower" class="drop-card">
+                <span class="drop-title"><span style="color:var(--teal-500);">👷</span> Strategic Manpower</span>
+                <span class="drop-desc">Skilled, semi-skilled, 100% PF/ESIC statutory compliance.</span>
+              </a>
+              <a href="home.html#svc-housekeeping" class="drop-card">
+                <span class="drop-title"><span style="color:var(--teal-500);">✨</span> Mechanized Housekeeping</span>
+                <span class="drop-desc">Industrial cleaning, ride-on scrubbers, commercial hygiene.</span>
+              </a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link active">
+              <span>Insights</span>
+              <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg>
+            </a>
+            <div class="dropdown-menu">
+              <a href="team.html" class="drop-card">
+                <span class="drop-title"><span style="color:var(--teal-500);">👥</span> Leadership &amp; Team</span>
+                <span class="drop-desc">Meet CEO Rahul Shinde, Directors, and operational heads.</span>
+              </a>
+              <a href="blog.html" class="drop-card">
+                <span class="drop-title"><span style="color:var(--teal-500);">📰</span> Industry Blog</span>
+                <span class="drop-desc">Articles on statutory compliance, mobility SLAs, and facility care.</span>
+              </a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="contact.html#rfp-form" class="btn btn-primary">
+          <span>Request Proposal</span>
+          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <button class="mobile-toggle" onclick="toggleMobileNav()" aria-label="Toggle Navigation">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Blog Hero & Filter -->
+  <section class="blog-hero">
+    <div class="container">
+      <div class="blog-hero-badge">
+        <span>📚</span> Industry Intelligence &amp; Field Best Practices
+      </div>
+      <h1 class="blog-hero-title">
+        Insights on <span>Statutory Rigor</span> &amp; Facility Operations.
+      </h1>
+      <p class="blog-hero-desc">
+        Operational analyses, regulatory compliance deep-dives, telematics breakthroughs, and field protocols from the leadership desk of Radical Vision Facilities Pvt. Ltd.
+      </p>
+
+      <div class="filter-bar">
+        <button class="filter-btn active" onclick="filterArticles('all', this)">All Articles (4)</button>
+        <button class="filter-btn" onclick="filterArticles('compliance', this)">Statutory Compliance</button>
+        <button class="filter-btn" onclick="filterArticles('mobility', this)">Corporate Mobility</button>
+        <button class="filter-btn" onclick="filterArticles('telecom', this)">Telecom Tower O&amp;M</button>
+        <button class="filter-btn" onclick="filterArticles('hygiene', this)">Industrial Hygiene</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Grid Section -->
+  <section class="blog-section">
+    <div class="container">
+      <div class="blog-grid">
+
+        <!-- Article 1: Statutory Compliance (Rahul Shinde) -->
+        <article class="blog-card" data-category="compliance">
+          <div class="blog-img-wrap">
+            <img src="https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1200&q=80" alt="Statutory Compliance Audit">
+            <span class="blog-tag-badge">Statutory Compliance</span>
+            <span class="blog-read-time">5 Min Read</span>
+          </div>
+          <div class="blog-content">
+            <div class="blog-meta-row">
+              <span class="blog-date">📅 November 15, 2026</span>
+              <span>•</span>
+              <span>Labor Law &amp; PF/ESIC Immunity</span>
+            </div>
+            <h2 class="blog-title">
+              Ensuring 100% Statutory Compliance in Contractual Manpower: The Maharashtra Employer’s Guide
+            </h2>
+            <p class="blog-excerpt">
+              Under the Contract Labour (Regulation &amp; Abolition) Act, principal employers remain strictly co-liable for unpaid PF and ESIC. Learn how automated monthly ECR audits and verified challans protect enterprise clients from sudden department penalties.
+            </p>
+            <div class="blog-footer">
+              <div class="blog-author">
+                <div class="author-avatar">RS</div>
+                <div>
+                  <div class="author-name">Rahul Shinde</div>
+                  <div class="author-role">CEO &amp; Founder</div>
+                </div>
+              </div>
+              <button class="read-more-btn" onclick="openArticleModal('art1')">
+                <span>Read Analysis</span> &rarr;
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Article 2: Corporate Mobility (Rajesh - Operations) -->
+        <article class="blog-card" data-category="mobility">
+          <div class="blog-img-wrap">
+            <img src="https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=1200&q=80" alt="Corporate Fleet Management">
+            <span class="blog-tag-badge">Corporate Mobility</span>
+            <span class="blog-read-time">4 Min Read</span>
+          </div>
+          <div class="blog-content">
+            <div class="blog-meta-row">
+              <span class="blog-date">📅 November 08, 2026</span>
+              <span>•</span>
+              <span>Hinjewadi &amp; Kharadi IT Hubs</span>
+            </div>
+            <h2 class="blog-title">
+              Next-Gen Corporate Cab Fleets in Pune IT Parks: Telematics, Safety &amp; 99.8% On-Time SLAs
+            </h2>
+            <p class="blog-excerpt">
+              Managing 24/7 employee commutes during peak Pune traffic bottlenecks requires dynamic telemetry. Explore our SOS panic button integrations, female night escort protocols, and &lt;90-minute buffer vehicle mobilization frameworks.
+            </p>
+            <div class="blog-footer">
+              <div class="blog-author">
+                <div class="author-avatar" style="background:#D1FAE5; color:#065F46;">R</div>
+                <div>
+                  <div class="author-name">Rajesh</div>
+                  <div class="author-role">Head of Operations</div>
+                </div>
+              </div>
+              <button class="read-more-btn" onclick="openArticleModal('art2')">
+                <span>Read Analysis</span> &rarr;
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Article 3: Telecom O&M (Engineering Desk) -->
+        <article class="blog-card" data-category="telecom">
+          <div class="blog-img-wrap">
+            <img src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80" alt="Mobile Tower Maintenance">
+            <span class="blog-tag-badge">Telecom Infrastructure</span>
+            <span class="blog-read-time">6 Min Read</span>
+          </div>
+          <div class="blog-content">
+            <div class="blog-meta-row">
+              <span class="blog-date">📅 October 28, 2026</span>
+              <span>•</span>
+              <span>Maharashtra Telecom Circle</span>
+            </div>
+            <h2 class="blog-title">
+              Zero-Downtime Operations in Mobile Tower Erection &amp; O&amp;M: Monsoon Protocols &amp; Power Continuity
+            </h2>
+            <p class="blog-excerpt">
+              Western Ghats monsoons cause recurring power grid trips and optical fiber disruptions. Discover how our rapid-response DG refueling squads, battery bank telemetry, and certified rigging teams maintain 99.95% telecom uptime.
+            </p>
+            <div class="blog-footer">
+              <div class="blog-author">
+                <div class="author-avatar" style="background:#E0F2FE; color:#075985;">ENG</div>
+                <div>
+                  <div class="author-name">Engineering Ops Desk</div>
+                  <div class="author-role">Telecom Infrastructure Division</div>
+                </div>
+              </div>
+              <button class="read-more-btn" onclick="openArticleModal('art3')">
+                <span>Read Analysis</span> &rarr;
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Article 4: Industrial Hygiene (Anita - Relations) -->
+        <article class="blog-card" data-category="hygiene">
+          <div class="blog-img-wrap">
+            <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1200&q=80" alt="Industrial Mechanized Housekeeping">
+            <span class="blog-tag-badge">Industrial Hygiene</span>
+            <span class="blog-read-time">4 Min Read</span>
+          </div>
+          <div class="blog-content">
+            <div class="blog-meta-row">
+              <span class="blog-date">📅 October 14, 2026</span>
+              <span>•</span>
+              <span>Chakan &amp; PCMC MIDC</span>
+            </div>
+            <h2 class="blog-title">
+              Mechanized Scrubbers vs. Traditional Mopping: 60% Faster Turnaround in Manufacturing Plants
+            </h2>
+            <p class="blog-excerpt">
+              Heavy automotive shopfloors accumulate cutting oils and metal shavings that manual brooms simply smear around. Learn how industrial ride-on scrubbers and eco-safe degreasers cut slip-and-fall hazards while doubling floor hygiene life.
+            </p>
+            <div class="blog-footer">
+              <div class="blog-author">
+                <div class="author-avatar" style="background:#FEF3C7; color:#92400E;">A</div>
+                <div>
+                  <div class="author-name">Anita</div>
+                  <div class="author-role">Corporate Relations Manager</div>
+                </div>
+              </div>
+              <button class="read-more-btn" onclick="openArticleModal('art4')">
+                <span>Read Analysis</span> &rarr;
+              </button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       FULL ARTICLE MODAL (Interactive Reader)
+       ===================================================================== -->
+  <div class="article-modal" id="articleModal" onclick="closeArticleOnBackdrop(event)">
+    <div class="modal-dialog">
+      <button class="modal-close-btn" onclick="closeArticleModal()">&times;</button>
+      <div id="modalContentTarget">
+        <!-- Content injected dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <img src="logo-header.jpg" alt="Radical Vision Facilities &amp; Services" style="height:44px; width:auto; margin-bottom:14px;">
+        <p>
+          Radical Vision Facilities Pvt. Ltd. (RV Facilities) has provided corporate cab fleets, telecom tower erection &amp; O&amp;M, strategic manpower, and mechanized housekeeping across Maharashtra since 2006.
+        </p>
+        <div style="font-size: 11.5px; color: var(--slate-500); line-height: 1.6;">
+          <strong>CIN:</strong> Incorporated 24 April 2024 (RoC)<br>
+          <strong>GSTIN:</strong> 27AANCR5092D1Z4 | <strong>PAN:</strong> AANCR5092D
+        </div>
+      </div>
+
+      <div>
+        <h4 class="footer-col-title">Core Services</h4>
+        <ul class="footer-links">
+          <li><a href="home.html#svc-cabs">&rsaquo; Corporate Cab Services</a></li>
+          <li><a href="home.html#svc-towers">&rsaquo; Mobile Tower Erection &amp; O&amp;M</a></li>
+          <li><a href="home.html#svc-manpower">&rsaquo; Industrial Manpower Supply</a></li>
+          <li><a href="home.html#svc-housekeeping">&rsaquo; Mechanized Housekeeping</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="footer-col-title">Company &amp; Insights</h4>
+        <ul class="footer-links">
+          <li><a href="about.html">&rsaquo; About RV Facilities</a></li>
+          <li><a href="team.html">&rsaquo; Leadership &amp; Team</a></li>
+          <li><a href="blog.html">&rsaquo; Industry Insights &amp; Blog</a></li>
+          <li><a href="contact.html">&rsaquo; Corporate HQ &amp; Map</a></li>
+          <li><a href="https://erpnext.rvfacilities.com" target="_blank" rel="noopener">&rsaquo; Client ERP Login</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="footer-col-title">Corporate Headquarters</h4>
+        <div style="font-size: 12.5px; color: var(--slate-600); margin-bottom: 14px; line-height: 1.5;">
+          S-74, Destination Centre, Center-1, Nanded City, Sinhagad Road, Pune 411068
+        </div>
+        <div style="font-size: 12.5px; color: var(--slate-600); margin-bottom: 8px;">
+          <strong>Tel:</strong> <a href="tel:+918446036060" style="color:var(--slate-800); font-weight:600;">+91 84460 36060</a> / <a href="tel:+919923000397" style="color:var(--slate-800); font-weight:600;">+91 992 300 0397</a>
+        </div>
+        <div style="font-size: 12.5px; color: var(--slate-600); margin-bottom: 12px;">
+          <strong>Email:</strong> <a href="mailto:info@rvfacilities.com" style="color:var(--teal-600); font-weight:600;">info@rvfacilities.com</a>
+        </div>
+        <a href="contact.html" style="font-size: 12px; font-weight: 700; color: var(--teal-600); display: inline-flex; align-items: center; gap: 4px;">
+          View Full Location &amp; Directions &rarr;
+        </a>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <div>&copy; 2026 Radical Vision Facilities Pvt. Ltd. (RV Facilities). All rights reserved.</div>
+      <div style="display:flex; gap:20px;">
+        <a href="about.html" style="color:var(--slate-500);">About Us</a>
+        <a href="team.html" style="color:var(--slate-500);">Leadership</a>
+        <a href="blog.html" style="color:var(--slate-500);">Insights</a>
+        <a href="contact.html" style="color:var(--slate-500);">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script for Filters and Full Article Modals -->
+  <script>
+    // Articles Database
+    const articlesData = {
+      art1: {
+        tag: "Statutory Compliance",
+        title: "Ensuring 100% Statutory Compliance in Contractual Manpower: The Maharashtra Employer’s Guide",
+        author: "Rahul Shinde, CEO & Founder",
+        date: "November 15, 2026 • 5 Min Read",
+        body: `
+          <p>Over the past three years, the Maharashtra Labour Department and regional EPFO / ESIC commission offices have dramatically intensified joint compliance inspections of mid-to-large industrial premises in Pune, Chakan, Hinjewadi, and Talegaon.</p>
+          <h4>The Principal Employer Trap</h4>
+          <p>Under Section 21(4) of the Contract Labour (Regulation and Abolition) Act, 1970, the Principal Employer is legally bound to pay wages, PF contributions, and ESIC benefits if the outsourcing contractor defaults. Claiming ignorance of vendor non-compliance is rejected by labor tribunals.</p>
+          <h4>Critical Audit Safeguards Implemented at RV Facilities:</h4>
+          <ul>
+            <li><strong>Automated ECR Verification:</strong> Every month, before client invoices are issued, Shubham and our account team reconcile electronic challan receipts (ECRs) confirming 100% PF and ESIC deposits against the active attendance register.</li>
+            <li><strong>Digital UAN and IP Seeding:</strong> 100% of deployed manpower are issued authenticated UAN (Universal Account Number) and ESIC insurance cards before stepping onto client premises.</li>
+            <li><strong>Direct Bank Transfers:</strong> Cash disbursement is strictly forbidden; all wages are deposited through NEFT/IMPS with downloadable bank transaction records.</li>
+            <li><strong>Quarterly Returns &amp; Form XXIV:</strong> Complete half-yearly and annual compliance books maintained for instant auditor inspection.</li>
+          </ul>
+          <p>When you partner with RV Facilities, you receive a statutory compliance indemnity certificate every single billing cycle—giving your CFO and HR Directors total legal immunity.</p>
+        `
+      },
+      art2: {
+        tag: "Corporate Mobility",
+        title: "Next-Gen Corporate Cab Fleets in Pune IT Parks: Telematics, Safety & 99.8% On-Time SLAs",
+        author: "Rajesh, Head of Operations",
+        date: "November 08, 2026 • 4 Min Read",
+        body: `
+          <p>Connecting thousands of IT professionals from Kothrud, Hadapsar, Sinhagad Road, and Wakad into Hinjewadi Phase 1-3 and Kharadi EON IT Park requires more than cars—it requires synchronized operational command.</p>
+          <h4>Zero Compromise on Female Employee Security</h4>
+          <p>In accordance with the Maharashtra IT/ITeS Policy and national transport safety directives, RV Facilities enforces zero-exception women security protocols:</p>
+          <ul>
+            <li><strong>First-Pick / Last-Drop Security:</strong> Female employees are never scheduled as the final drop-off in a night shift without a verified security escort or dedicated routing.</li>
+            <li><strong>In-Cabin SOS Panic Buttons:</strong> Connected directly to Rajesh's 24/7 Operations Desk at Destination Centre Nanded City. Any trigger alerts mobile patrol supervisors within 180 seconds.</li>
+            <li><strong>Real-Time Geo-Fencing:</strong> Any unnotified route deviation greater than 300 meters triggers an instant operations dispatch alert.</li>
+          </ul>
+          <h4>99.8% On-Time Dispatch SLA</h4>
+          <p>To eliminate shift delays, we position standby buffer vehicles at Chandani Chowk, Wakad Bridge, and Magarpatta Circle. If any breakdown occurs, a replacement vehicle arrives in under 90 minutes.</p>
+        `
+      },
+      art3: {
+        tag: "Telecom Infrastructure",
+        title: "Zero-Downtime Operations in Mobile Tower Erection & O&M: Overcoming Monsoon Outages",
+        author: "Engineering Operations Desk",
+        date: "October 28, 2026 • 6 Min Read",
+        body: `
+          <p>During the intense monsoon months in the Western Ghats (Pune, Satara, Kolhapur, and Konkan circle), telecom towers face extreme operational stresses: lightning strikes, state electricity grid blackouts, and optical fiber breaks.</p>
+          <h4>Our 4-Pillar Telecom Uptime Matrix:</h4>
+          <ul>
+            <li><strong>Automated DG Generator Refueling:</strong> Diesel levels are tracked via remote telemetry. Fuel tanks are replenished before reaching 35% capacity to prevent air locks in backup generators.</li>
+            <li><strong>Optical Fiber OTDR Troubleshooting:</strong> Dedicated fiber splicing teams equipped with advanced OTDR instruments isolate cable cuts in under 45 minutes.</li>
+            <li><strong>Certified Height Safety:</strong> Tower erection and maintenance technicians undergo bi-annual certified high-altitude rigging, harness inspection, and emergency rescue drills.</li>
+            <li><strong>Preventive Electrical Audits:</strong> Comprehensive earthing pit resistance measurement, surge protection device (SPD) replacements, and transformer inspections.</li>
+          </ul>
+          <p>With RV Facilities overseeing O&amp;M, telecom infrastructure providers achieve steady 99.95% network availability across harsh topographical environments.</p>
+        `
+      },
+      art4: {
+        tag: "Industrial Hygiene",
+        title: "Mechanized Scrubbers vs. Traditional Mopping: Achieving 60% Faster Turnaround in Manufacturing Plants",
+        author: "Anita, Corporate Relations Manager",
+        date: "October 14, 2026 • 4 Min Read",
+        body: `
+          <p>In modern automotive and heavy engineering manufacturing plants across Chakan, Bhosari, and Talegaon MIDC, traditional cotton mops are not only obsolete—they are an active safety hazard.</p>
+          <h4>The Problem with Manual Mopping on Shopfloors:</h4>
+          <p>Manual mopping simply dilutes industrial coolant oils and spreads micro-metal filings across the epoxy surface, resulting in slick floors, forklift skidding, and poor visual audit scores during multinational client audits.</p>
+          <h4>The RV Mechanized Facility Protocol:</h4>
+          <ul>
+            <li><strong>High-Capacity Ride-On Scrubbers:</strong> Capable of scrubbing, vacuuming, and drying up to 35,000 sq ft per hour in a single uninterrupted pass.</li>
+            <li><strong>pH-Balanced Biodegradable Degreasers:</strong> Removes stubborn grease deposits without etching industrial polyurethane or epoxy floor finishes.</li>
+            <li><strong>Immediate Dry-Floor Safety:</strong> Vacuum suction leaves walkways 100% dry immediately, eliminating slips, trips, and falls.</li>
+            <li><strong>Documented Hygiene Audits:</strong> Bi-weekly gloss meter and cleanliness audits reviewed directly with plant administration.</li>
+          </ul>
+          <p>Clients report a 60% reduction in housekeeping turnaround times and zero factory safety audit citations.</p>
+        `
+      }
+    };
+
+    function filterArticles(category, btn) {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      const cards = document.querySelectorAll('.blog-card');
+      cards.forEach(card => {
+        if (category === 'all' || card.getAttribute('data-category') === category) {
+          card.style.display = 'flex';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+
+    function openArticleModal(id) {
+      const art = articlesData[id];
+      if (!art) return;
+
+      const shareUrl = encodeURIComponent(window.location.origin + window.location.pathname + '#' + id);
+      const shareTitle = encodeURIComponent(art.title + ' | RV Facilities Pune');
+
+      const html = `
+        <div class="modal-header-tag">${art.tag}</div>
+        <h3 class="modal-title">${art.title}</h3>
+        <div class="modal-meta">
+          <span>✍️ By <strong>${art.author}</strong></span>
+          <span>${art.date}</span>
+        </div>
+        <div class="modal-body">
+          ${art.body}
+
+          <div class="article-share-bar">
+            <span class="share-bar-label">
+              <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"/></svg>
+              Share this Insight:
+            </span>
+            <a href="https://www.linkedin.com/sharing/share-offsite/?url=${shareUrl}" target="_blank" rel="noopener" class="share-btn share-btn-linkedin" title="Share on LinkedIn">
+              <svg fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              <span>LinkedIn</span>
+            </a>
+            <a href="https://api.whatsapp.com/send?text=${shareTitle}%20${shareUrl}" target="_blank" rel="noopener" class="share-btn share-btn-whatsapp" title="Share on WhatsApp">
+              <svg fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+              <span>WhatsApp</span>
+            </a>
+            <button type="button" class="share-btn share-btn-copy" onclick="copyArticleLink('${id}', this)" title="Copy Direct Link">
+              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>
+              <span>Copy Link</span>
+            </button>
+          </div>
+
+          <div class="modal-cta-box">
+            <div>
+              <strong style="color:var(--slate-900);">Need this level of operational rigor at your facility?</strong>
+              <div style="font-size:12.5px; color:var(--slate-600); margin-top:2px;">Our Pune operations leadership responds within 24 hours.</div>
+            </div>
+            <a href="contact.html#inquiry-form" class="btn btn-primary" style="font-size:13px; padding:8px 16px;">Request Proposal &rarr;</a>
+          </div>
+        </div>
+      `;
+
+      document.getElementById('modalContentTarget').innerHTML = html;
+      document.getElementById('articleModal').classList.add('active');
+    }
+
+    function copyArticleLink(id, btn) {
+      const url = window.location.origin + window.location.pathname + '#' + id;
+      if (navigator.clipboard) {
+        navigator.clipboard.writeText(url).then(() => {
+          const originalHTML = btn.innerHTML;
+          btn.innerHTML = '<span>✓ Copied!</span>';
+          setTimeout(() => { btn.innerHTML = originalHTML; }, 2000);
+        }).catch(() => {
+          prompt('Copy this link:', url);
+        });
+      } else {
+        prompt('Copy this link:', url);
+      }
+    }
+
+    window.addEventListener('DOMContentLoaded', () => {
+      const hash = window.location.hash.replace('#', '');
+      if (hash && articlesData[hash]) {
+        openArticleModal(hash);
+      }
+    });
+
+    function closeArticleModal() {
+      document.getElementById('articleModal').classList.remove('active');
+    }
+
+    function closeArticleOnBackdrop(e) {
+      if (e.target.id === 'articleModal') {
+        closeArticleModal();
+      }
+    }
+
+    function toggleMobileNav() {
+      const menu = document.querySelector('.nav-menu');
+      if (menu) menu.classList.toggle('open');
+    }
+  </script>
+</body>
+</html>
